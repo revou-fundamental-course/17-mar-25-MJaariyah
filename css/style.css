@@ -1,3 +1,41 @@
 body {
-    background-color: aqua;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: cursive;
+}
+
+.body-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    background-color: MediumSeaGreen;
+    /* background-color: #009000; */
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+section > h1 {
+    text-align: center;
+}
+
+.figure-persegi {
+    width: 20%;
+    height: 20%;
+}
+
+footer {
+    color: white;
 }
